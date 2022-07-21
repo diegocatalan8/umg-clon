@@ -1,0 +1,177 @@
+/*Estilos Generales*/
+.App-header{
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+   
+}
+/*Estilos Para la barrita de arriba */
+.row-one{
+    background-color: #0d4266;
+    height: 38px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.fa-solid{
+    padding-top: 7px;
+    padding-left:7px;
+    margin-right: 8px;
+    border-radius: 50%;
+    height: 22px;
+    width: 23px;
+    background-color: #fff;   
+}
+.cite{
+    padding-top: 7px;
+    padding-left:7px;
+    margin-right: 8px;
+    border-radius: 50%;
+    font-size: 7px;
+    padding-right: 2px;
+    
+
+   
+}
+.fa-solid:hover{
+    background-color: #28a259;
+    color: #fff;
+    cursor: pointer;
+}
+
+.fa-brands{
+    padding-top: 7px;
+    padding-left:7px;
+    margin-right: 8px;
+    border-radius: 50%;
+    height: 22px;
+    width: 23px;
+    background-color: #fff;   
+}
+
+.fa-facebook-f{
+    margin-left: 8px;
+}
+
+.fa-brands:hover{
+    background-color: #3b5998;
+    color: #fff;
+    cursor: pointer;
+}
+
+.barra{
+    display: inline-block;
+    width: 1px;
+    height: 22px;
+    border-right: 1px solid #fff;
+}
+
+.mi{
+    margin-left: 5px;
+    display: inline-block;
+    font-size: 28px;
+    color: #37AAE1;
+    font-weight: 500;
+}
+
+.umg{
+    margin-left: 6px;
+    margin-right: 80px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/*Estilos para el menu de opciones*/
+.row-navegation-one{
+    height: 34px;
+    background: #1770a6;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+   
+}
+
+.row-navegation-two{
+    height: 34px;
+    background: #147aae;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+   
+}
+
+ 
+
+.col-1 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.col-2{
+    
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1 a{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    padding-top: 5px;
+   
+}
+
+.col-2 a{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+.izq{
+    padding-right: 60px;
+ }
+
+ .der{
+    padding-left: 60px;
+ }
+
+
+a:hover{
+    cursor: pointer;
+}
+
+.logo{
+    background-image: url(https://umg.edu.gt/assets/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    left: 50%;
+    margin: 0 auto;
+    position: fixed;
+    text-align: center;
+    top: 38px;
+    transform: translateX(-35%);
+    width: 190px;
+   
+    z-index: 9;
+}
+
+.logo img{
+    padding-top: 7.5%;
+    width: 80%;
+}

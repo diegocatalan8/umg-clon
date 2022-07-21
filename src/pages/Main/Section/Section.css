@@ -1,0 +1,288 @@
+.fondo-umg img{
+    width: 100%;
+    height: 890px;
+}
+
+.cita{
+    
+    background-image: url("https://umg.edu.gt/assets/versebg.png") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    left: 50%;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px #fff;
+    top: 30%;
+    transform: translateX(-50%);
+    width: 40%;
+   
+}
+
+#virtual{
+    width: 450px;
+    height: 250px;
+    display: block;
+    position: absolute;
+    top:450px;
+    left:280px;
+   
+    
+
+}
+
+#cita-biblica{
+    width: 500px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    right: 70px;
+    bottom: -30px;
+   
+    
+
+}
+
+/*estilos para el panel*/
+
+div .panel{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.col{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(24, 184, 199);
+   
+    
+}
+
+#centro{
+    width: 210px;
+    margin-left: 150px;
+    margin-right: 150px;
+   padding-top: 15px;
+   
+   
+   
+}
+
+.computers{
+    display: block;
+    width: 90px;
+    height: 80px;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+   
+}
+
+.col p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 800;
+   
+}
+
+.col:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: rgb(52, 128, 175);
+    cursor: pointer;
+}
+
+.computers:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: rgb(52, 128, 175);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/*estilos para el panel de secciones con listas*/
+.section-container{
+    width: 100%;
+    
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+   
+}
+
+.panel-section{
+    border-right: 4px dotted #95bf1d;
+    border-top: 4px dotted #95bf1d;
+    height: 200px;
+    width: 15%;
+    
+}
+
+
+
+.panel-section:last-child{
+    border-right: none;
+}
+
+.panel-section ul{
+    list-style: inside;
+    color: orangered;
+    
+    font-size: 19px;
+    text-align: center;
+}
+
+.text{
+    color: black;
+}
+
+.img-icon:hover{
+    color: rgb(52, 128, 175) !important;
+    background-color: white !important;
+    border-radius: 0;
+
+}
+
+.img-icon{
+    color:rgb(52, 128, 175);
+    font-size: 36px;
+    position: relative;
+    top: -30px;
+    border-radius: 0;
+    width: 37px;
+    height: 37px;
+}
+
+.subtitle{
+    
+    font-weight: 800;
+    margin-bottom: 10px;
+    color:rgb(52, 128, 175);
+    margin-bottom: 45px;
+
+}
+
+.sub-center{
+    
+    margin-bottom: 17px;
+}
+
+.sub-four{
+    margin-bottom: 16px;
+}
+
+.sub-five{
+    margin-bottom: 45px;
+}
+
+/*estilo para la image de poster*/
+
+.container-img img{
+    width: 100%;
+    height: 750px;
+}
+
+.container-img div img{
+   
+   
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: -300px;
+    left: 300px;
+}
+/*estilo para la seccion de facultad*/
+.container-area{
+    background-image: url(https://umg.edu.gt/assets/bg4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 625px;
+    
+}
+
+.container-area h2{
+    color: #f08a00;
+    font-family:  'Roboto', sans-serif;
+    font-size: 53px;
+    font-weight: lighter;
+    letter-spacing: 8px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: -480px;
+
+    
+}
+
+.area{
+   
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:flex-start;
+    flex-wrap: wrap;   
+}
+
+.enlace{
+   
+    width: 162px;
+    height: 199px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.enlace:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+   background-color: rgb(32, 50, 140);
+    cursor: pointer;
+}
+
+
+
+
+.enlace img{
+    width: 150px;
+    height: 150px;
+    
+
+}
+
+.enlace label{
+    text-align: center;
+    font-size: 13px;
+    color: orange;
+    font-weight: 500;
+}
+
+
